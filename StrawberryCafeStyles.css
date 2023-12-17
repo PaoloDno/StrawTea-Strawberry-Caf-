@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F26522;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFCDB2;
+  color: #3D0C02;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F26522;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #E34E0D;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  
+}
+
+#menu-overlay {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  
+}
+
+.menu-group {
+  flex: 1;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.size-btn {
+  padding: 12px 24px;
+  background-color: #FFA07A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.size-btn:hover {
+  background-color: #FF7F50;
+}
+
+.order-summary {
+  position: sticky;
+  top: 20px; /* Adjust top spacing */
+  max-height: calc(100vh - 150px); /* Adjust maximum height */
+  overflow-y: auto;
+  width: 250px; /* Adjust width */
+  margin-left: auto; /* Push it to the right */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-details {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.order-details p {
+  margin: 5px 0;
+}
+
+.order-details::before {
+  content: "Order Receipt";
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-details::after {
+  content: "Thank you for visiting!";
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.clear-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #FF6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #FF483E;
+}
