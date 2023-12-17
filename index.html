@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>StrawTea Strawberry Café</title>
+  <title>Tea Café</title>
   <link rel="stylesheet" href="StrawberryCafeStyles.css">
 </head>
 <body>
@@ -10,7 +10,7 @@
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        
         <li><a href="#menu">Menu</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -19,28 +19,22 @@
   </header>
 
   <main>
-    <section id="home">
+    <section id="home" class="home">
+      <div class="home-head">
       <h1>Welcome to Tea Café</h1>
-      <p>Discover the art of tea.</p>
+      <h3>Discover the art of tea.</h3>
       <a href="#menu" class="btn">Explore Our Menu</a>
-    </section>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>We are passionate about providing the finest tea experiences.</p>
+      </div>
       <br>
-      <p>Welcome to StrawTea Strawberry Café, an inviting retreat in Brgy 143 Manila, Philippines,
+      <p>Welcome to Tea Café, an inviting retreat in Brgy 143 Manila, Philippines,
         <br> where we specialize in crafting tantalizing beverages and delectable treats that captivate your taste buds.
-        <br> Our pride and joy lie in delivering an unforgettable taste experience, especially through the tantalizing aroma and flavor of fresh strawberries embraced in our signature cheesecake.
-        <br> At Tea Café, we're passionate about creating flavors that delight. <br>
-        <br> We excel in blending the essence of handpicked strawberries into our range of signature beverages and treats,
-        <br> ensuring each sip and bite is an exploration of exquisite taste and aroma.<br>
-        <br> Savor the essence of our carefully curated beverages, each crafted to perfection to elevate your senses.
-        <br> Pair your drink with a slice of our indulgent cheesecake, where the vibrant taste of strawberries takes center stage, leaving a lingering sweetness that satisfies the soul.
-        <br> Step into Tea Café for an enchanting journey through a tapestry of flavors, where every sip and bite embodies our commitment to taste perfection.</p>
+        <br> Our pride and joy lie in delivering an unforgettable taste experience,
+        <br>especially through the tantalizing aroma and flavor of fresh strawberries embraced in our signature milktea and cheesecake.
+        <br> At Tea Café, our passion is making flavors that delight. <br>
+        
     </section>
 
-    <section id="menu">
+    <section id="menu" class="hidden">
       <h2>Our Menu</h2>
       <div id="menu-overlay">
       <div class="menu">
@@ -49,18 +43,18 @@
           <div class="menu-item" data-info="Booba Milk Tea">
             <h4>Strawberry Milk Tea</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="149">Small - PHP 149</button>
-              <button class="size-btn" data-size="Medium" data-price="175">Medium - PHP 175</button>
-              <button class="size-btn" data-size="Large" data-price="199">Large - PHP 199</button>
+              <button class="size-btn" data-size="Small" data-price="149">Small<br> - PHP 149</button>
+              <button class="size-btn" data-size="Medium" data-price="175">Medium<br> - PHP 175</button>
+              <button class="size-btn" data-size="Large" data-price="199">Large<br> - PHP 199</button>
             </div>
             <p class="item-description"> A delightful fusion of creamy milk tea infused with the essence of ripe strawberries, offering a sweet and fruity flavor profile.</p>
           </div>
           <div class="menu-item" data-info="Classic Milk Tea">
             <h4>Classic Milk Tea</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="110">Small - PHP 110</button>
-              <button class="size-btn" data-size="Medium" data-price="130">Medium - PHP 130</button>
-              <button class="size-btn" data-size="Large" data-price="160">Large - PHP 160</button>
+              <button class="size-btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
+              <button class="size-btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
+              <button class="size-btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
             </div>
             <p class="item-description"> A timeless blend of black tea and creamy milk, offering a harmonious balance of flavors.</p>
           </div>
@@ -71,18 +65,18 @@
           <div class="menu-item" data-info="Green Tea">
             <h4>Green Tea</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="100">Small - PHP 100</button>
-              <button class="size-btn" data-size="Medium" data-price="120">Medium - PHP 120</button>
-              <button class="size-btn" data-size="Large" data-price="150">Large - PHP 150</button>
+              <button class="size-btn" data-size="Small" data-price="100">Small<br> - PHP 100</button>
+              <button class="size-btn" data-size="Medium" data-price="120">Medium<br> - PHP 120</button>
+              <button class="size-btn" data-size="Large" data-price="150">Large<br> - PHP 150</button>
             </div>
             <p class="item-description">A soothing blend of traditional green tea leaves.</p>
           </div>
           <div class="menu-item" data-info="Yellow Tea">
             <h4>Yellow Tea</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="110">Small - PHP 110</button>
-              <button class="size-btn" data-size="Medium" data-price="130">Medium - PHP 130</button>
-              <button class="size-btn" data-size="Large" data-price="160">Large - PHP 160</button>
+              <button class="size-btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
+              <button class="size-btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
+              <button class="size-btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
             </div>
             <p class="item-description">A delicate and fragrant yellow tea variety.</p>
           </div>
@@ -94,18 +88,18 @@
           <div class="menu-item" data-info="House Blend">
             <h4>Classic Blend</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="75">Small - PHP 75</button>
-              <button class="size-btn" data-size="Medium" data-price="85">Medium - PHP 85</button>
-              <button class="size-btn" data-size="Large" data-price="110">Large - PHP 110</button>
+              <button class="size-btn" data-size="Small" data-price="75">Small<br> - PHP 75</button>
+              <button class="size-btn" data-size="Medium" data-price="85">Medium<br> - PHP 85</button>
+              <button class="size-btn" data-size="Large" data-price="110">Large<br> - PHP 110</button>
             </div>
             <p class="item-description">Our classic house blend coffee, brewed to perfection, offering a rich and satisfying flavor with subtle hints of caramel and chocolate.</p>
           </div>
           <div class="menu-item" data-info="Caramel Macchiato">
             <h4>Caramel Macchiato</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="120">Small - PHP 120</button>
-              <button class="size-btn" data-size="Medium" data-price="140">Medium - PHP 140</button>
-              <button class="size-btn" data-size="Large" data-price="170">Large - PHP 170</button>
+              <button class="size-btn" data-size="Small" data-price="120">Small<br> - PHP 120</button>
+              <button class="size-btn" data-size="Medium" data-price="140">Medium<br> - PHP 140</button>
+              <button class="size-btn" data-size="Large" data-price="170">Large<br> - PHP 170</button>
             </div>
             <p class="item-description">Espresso with steamed milk, vanilla, and strong caramel.</p>
           </div>
@@ -117,16 +111,16 @@
           <div class="menu-item" data-info="French Fries" data-price="110">
             <h4>French Fries</h4>
             <div class="size-options">
-              <button class="size-btn" data-size="Small" data-price="40">Small - PHP 40</button>
-              <button class="size-btn" data-size="Medium" data-price="60">Medium - PHP 60</button>
-              <button class="size-btn" data-size="Large" data-price="80">Large - PHP 80</button>
+              <button class="size-btn" data-size="Small" data-price="40">Small<br> - PHP 40</button>
+              <button class="size-btn" data-size="Medium" data-price="60">Medium<br> - PHP 60</button>
+              <button class="size-btn" data-size="Large" data-price="80">Large<br> - PHP 80</button>
             </div>
             <p class="item-description">Crispy golden fries served with your choice of dip.</p>
           </div>
           <div class="menu-item" data-info="Special Café Cheesecake" data-price="150">
             <h4>Special Café Cheesecake</h4>
-            <button class="size-btn" data-size="Small" data-price="40">Single Slice - PHP 40</button>
-            <button class="size-btn" data-size="Medium" data-price="210">Whole (6 Slice) - PHP 210</button>
+            <button class="size-btn" data-size="Small" data-price="40">Single Slice <br> - PHP 40</button>
+            <button class="size-btn" data-size="Medium" data-price="210">Whole (6 Slice)<br> - PHP 210</button>
             <p class="item-description">Our most basic cheesecake infused with strawberry goodness.</p>
           </div>
           <!-- Add more snack items -->
@@ -141,12 +135,12 @@
       </div></div>
     </section>
 
-    <section id="gallery">
+    <section id="gallery" class="hidden">
       <h2>Gallery</h2>
       <!-- Add image gallery -->
     </section>
 
-    <section id="contact">
+    <section id="contact" class="hidden">
       <h2>Contact Us</h2>
       <!-- Add contact form or details -->
     </section>
