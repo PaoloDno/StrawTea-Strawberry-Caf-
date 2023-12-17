@@ -8,7 +8,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 100%;
 }
 section.home {
   h3 {
@@ -168,8 +168,8 @@ section {
 
 .hidden {
   opacity: 0;
-  transform: translateY(200px); /* Adjust the value for desired effect */
-  transition: opacity 1s ease, transform 1.5s ease;
+  transform: translateY(20px); /* Adjust the value for desired effect */
+  transition: opacity 0.5s ease, transform 1.5s ease;
 }
 .fade-in {
   opacity: 1;
