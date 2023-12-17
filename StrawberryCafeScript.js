@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const size = button.getAttribute('data-size');
       const itemName = button.parentElement.parentElement.getAttribute('data-info');
       const price = button.parentElement.parentElement.getAttribute('data-price');
-
+      
       const itemKey = `${size} ${itemName} - PHP ${price}`;
       if (items[itemKey]) {
         items[itemKey].quantity++;
@@ -40,3 +40,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+
+// JavaScript for onscroll animation
+const elements = document.querySelectorAll('.hidden');
+
+function fadeInOnScroll() {
+  elements.forEach((element) => {
+    const elementPosition = element.getBoundingClientRect().top;
+    const screenHeight = window.innerHeight;
+
+    if (elementPosition < screenHeight) {
+      element.classList.add('fade-in');
+    } else {
+      element.classList.remove('fade-in');
+    }
+  });
+}
+
+window.addEventListener('scroll', fadeInOnScroll);
