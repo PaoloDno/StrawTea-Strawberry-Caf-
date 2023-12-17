@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Oswald&family=Pacifico&family=Roboto:ital,wght@1,900&display=swap');
+
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+
+section {
+  min-height: 100vh;
+}
+section.home {
+  h3 {
+   font-family: 'Pacifico'; 
+  }
 }
 
 header {
@@ -50,17 +61,11 @@ section {
 .btn:hover {
   background-color: #E34E0D;
 }
-
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-}
-
-#menu-overlay {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
+  
 }
 
 #menu-overlay {
@@ -72,6 +77,9 @@ section {
 
 .menu-group {
   flex: 1;
+}
+.menu-group h3 {
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif;
 }
 
 .size-options {
@@ -113,7 +121,8 @@ section {
   border-radius: 5px;
   font-size: 14px;
   line-height: 1.5;
-  max-height: 300px;
+  max-height: 400px;
+  min-height: 400px;
   overflow-y: auto;
 }
 
@@ -137,7 +146,9 @@ section {
 }
 
 .clear-btn {
-  display: block;
+  display: relative;
+  top: 0;
+  bottom: 0;
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #FF6347;
@@ -149,4 +160,18 @@ section {
 
 .clear-btn:hover {
   background-color: #FF483E;
+}
+
+
+
+
+
+.hidden {
+  opacity: 0;
+  transform: translateY(200px); /* Adjust the value for desired effect */
+  transition: opacity 1s ease, transform 1.5s ease;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
