@@ -50,11 +50,17 @@ section {
 .btn:hover {
   background-color: #E34E0D;
 }
+
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  
+}
+
+#menu-overlay {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
 }
 
 #menu-overlay {
