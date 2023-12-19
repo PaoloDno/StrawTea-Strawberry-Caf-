@@ -1,10 +1,12 @@
  https://paolodno.github.io/StrawTea-Strawberry-Caf-/
-todo
- Menu Categorize Menu
- Customizable
- REal Time delivery
-
- Ordering process
- simplified checkout
-
- crossplatform
+ 
+ <br>
+ todo<br>
+ Menu Categorize Menu<br>
+ Customizable<br>
+ REal Time delivery<br>
+<br>
+ Ordering process<br>
+ simplified checkout<br>
+<br>
+ crossplatform<br>
