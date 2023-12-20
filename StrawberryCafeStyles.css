@@ -21,8 +21,8 @@ section.home {
 
   h3 {
    font-family: 'Pacifico';
-   font-size: 2rem;
-   margin-top: -1rem;
+   font-size: 1.5rem;
+   margin-top: -0.8rem;
   }
   p {
     font-size: 1.1rem;
@@ -41,7 +41,23 @@ section.home {
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: lighten;
-  
+}
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.StrawTeaLogo {
+  width: 60%;
+  position: absolute;
+  top: 400px;
+  bottom: 10%;
+  opacity: 0.4;
+  transition: opacity 1s ease-in-out;
+
+}
+.StrawTeaLogo:hover {
+  opacity: 1;
 }
 #menu-section {
   margin-bottom: 30px;
@@ -62,12 +78,26 @@ section.home {
 header {
   background-color: #F26522;
   padding: 20px;
+  height: 30px;
+  
 }
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  
+}
+.LogoHeader {
+  position: relative;
+  top: -11px;
+  float: left;
+  width: 150px;
+  height: 150px;
 }
 
 nav ul li {
