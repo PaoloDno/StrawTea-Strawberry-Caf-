@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 628.32 285.48">
+  <defs>
+    <radialGradient class="radial-gradient" cx="299.23" cy="601.02" fx="299.23" fy="601.02" r="63.71" gradientTransform="translate(0 -30.95) scale(1 .27)" gradientUnits="userSpaceOnUse">
+      <stop offset=".13" stop-color="#fef5f0" stop-opacity=".7"/>
+      <stop offset=".42" stop-color="#fef6f2" stop-opacity=".7"/>
+      <stop offset=".45" stop-color="#fef8f5" stop-opacity=".57"/>
+      <stop offset=".49" stop-color="#fefaf8" stop-opacity=".44"/>
+      <stop offset=".52" stop-color="#fefcfb" stop-opacity=".33"/>
+      <stop offset=".56" stop-color="#fefdfd" stop-opacity=".26"/>
+      <stop offset=".6" stop-color="#fefefe" stop-opacity=".21"/>
+      <stop offset=".64" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#f26522"/>
+    </radialGradient>
+  </defs>
+  <g class="shadow">
+    <circle class="bigcircleshadow" cx="297.67" cy="150.14" r="131.34" style="stroke: #000; stroke-miterlimit: 10; stroke-width: 8px;"/>
+  </g>
+  <g class="StrawTeaCafeLogo">
+    <g class="cup">
+      <path class="cup-2" data-name="cup" d="m415.52,234.45c-17.97-7.62-61.44-13-112.23-13s-95.65,5.55-113.08,13.37c-5.15,2.31-8,4.82-8,7.44,0,2.89,3.44,5.64,9.63,8.14,18.44,7.44,61.39,12.66,111.44,12.66s91.61-5.06,110.53-12.31c6.76-2.59,10.55-5.47,10.55-8.49,0-2.76-3.16-5.4-8.85-7.81Z" style="fill: #c1272d; stroke-width: 0px;"/>
+      <path class="cupbody" d="m192.02,142.02c9.24,58.17,55.36,102.4,110.91,102.4s101.45-44.03,110.84-102.01c-18.89,8.24-61.21,13.98-110.42,13.98s-92.91-5.92-111.33-14.37Z" style="fill: #f26522; stroke-width: 0px;"/>
+      <path class="cuphandle" d="m440.55,201.58c-11.93,3.28-23.9.42-31.9-6.54-1.01,1.62-2.61,3.08-4.64,4.06-4.65,2.24-9.8,1.17-11.52-2.39-1.72-3.56.65-8.26,5.3-10.51s9.8-1.17,11.52,2.39c.74,1.53.72,3.26.09,4.92,5.41,3.01,12.03,3.98,18.56,2.19,13.02-3.58,20.75-16.76,17.26-29.44-3.49-12.68-16.87-20.06-29.89-16.47-2.2.61-4.24,1.51-6.11,2.61,4.15-3.89,9.4-6.91,15.44-8.58,17.95-4.94,36.06,3.99,40.44,19.94,4.39,15.95-6.61,32.88-24.56,37.82Z" style="fill: #c1272d; stroke-width: 0px;"/>
+      <ellipse class="handlecircle" cx="400.81" cy="192.71" rx="6.97" ry="5.34" transform="translate(-43.92 193.35) rotate(-25.76)" style="fill: #f26522; stroke-width: 0px;"/>
+      <path class="handle" d="m465.32,164.1c-4.39-15.95-22.49-24.88-40.44-19.94-.12.03-.23.07-.35.11-4.17,1.57-7.88,3.81-11.03,6.53.67-.25,1.35-.48,2.05-.68.11-.03.22-.05.34-.08.86-.35,1.74-.66,2.66-.92,13.02-3.58,26.41,3.79,29.89,16.47,3.49,12.68-4.24,25.86-17.26,29.44-.08.02-.16.04-.23.06-.89.36-1.81.68-2.77.94-2.85.78-5.7,1.02-8.48.81,0,.22.03.44.03.67,0,.6-.03,1.2-.07,1.79,7.09,3.16,15.61,3.95,24.1,1.61.17-.05.33-.1.49-.15,15.85-6.05,25.16-21.79,21.06-36.67Z" style="fill: #f26522; stroke-width: 0px;"/>
+      <path d="m423.2,133.48c-19.22-8.15-65.69-13.9-120.01-13.9s-102.28,5.94-120.91,14.29c-5.51,2.47-8.55,5.15-8.55,7.95,0,3.09,3.67,6.03,10.3,8.71,19.72,7.96,65.65,13.54,119.17,13.54s97.96-5.41,118.18-13.17c7.23-2.77,11.28-5.85,11.28-9.08,0-2.95-3.38-5.77-9.46-8.35Z" style="fill: #f26522; stroke-width: 0px;"/>
+      <ellipse class="cup-3" data-name="cup" cx="298.62" cy="134.2" rx="116.6" ry="22.77" style="fill: #c1272d; stroke-width: 0px;"/>
+      <g class="cream" style="opacity: .59;">
+        <ellipse cx="299.23" cy="132.37" rx="63.71" ry="17.31" style="fill: url(#radial-gradient); stroke-width: 0px;"/>
+      </g>
+    </g>
+    <g class="strawberry1">
+      <g class="berry">
+        <g class="shadowberryright">
+          <path d="m396.58,119.62c-6.97,36.67-78,37.91-93.19,36.13-.62-.07-2.15-.27-3.71-1.35-16.15-11.16-1.05-92.69,35.79-98.93,28.08-4.76,66.74,34.55,61.11,64.15Z" style="fill: #8a3600; stroke-width: 0px;"/>
+        </g>
+        <g class="rightbody">
+          <path d="m401.53,115.53c-6.97,36.67-78,37.91-93.19,36.13-.62-.07-2.15-.27-3.71-1.35-16.15-11.16-1.05-92.69,35.79-98.93,28.08-4.76,66.74,34.55,61.11,64.15Z" style="fill: #ed1c24; stroke-width: 0px;"/>
+        </g>
+        <g class="rightbodyshadow">
+          <path d="m310.5,144.14c-.55-.06-1.91-.24-3.3-1.2-6.73-4.65-7.34-23.05-2.73-41.85-6.71,21.07-6.89,43.82.7,49.06,1.39.96,2.75,1.13,3.3,1.2,13.48,1.58,76.53.48,82.71-32.07.09-.49.17-.98.23-1.48-12.06,26.95-68.28,27.82-80.92,26.34Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        </g>
+      </g>
+      <g class="seeds">
+        <ellipse class="seed1" cx="340.1" cy="95.81" rx="7.43" ry="2.19" transform="translate(31.87 268.55) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="358.58" cy="117.59" rx="7.43" ry="2.19" transform="translate(21.88 288) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="338.53" cy="125.18" rx="7.43" ry="2.19" transform="translate(10.64 276.04) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="327.73" cy="111.5" rx="7.43" ry="2.19" transform="translate(17.15 264.4) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="328.83" cy="76.52" rx="7.43" ry="2.19" transform="translate(42.21 254.93) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="317.57" cy="101.48" rx="7.43" ry="2.19" transform="translate(21.26 254.28) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="321.44" cy="142.18" rx="7.43" ry="2.19" transform="translate(-6.39 268.93) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="311.56" cy="131.84" rx="7.43" ry="2.19" transform="translate(-1.97 258.92) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="350.05" cy="136.81" rx="7.43" ry="2.19" transform="translate(5.79 287.59) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed1" cx="378.49" cy="126.39" rx="7.43" ry="2.19" transform="translate(21.49 304.65) rotate(-45)" style="fill: #c1272d; stroke-width: 0px;"/>
+      </g>
+      <g class="leaf">
+        <path class="leaf-2" data-name="leaf" d="m407.95,94.7c-17.44-14.69-22.65-15.62-23.86-13.17-1.81,3.67,2.85,19.88,11.6,21.59,7.15,1.4,12-7.89,12.27-8.43Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-3" data-name="leaf" d="m403.51,115.13c-12.92-27.33-18.78-32.69-21.7-31.77-4.37,1.38-8.08,18.67,1.69,27.78,7.99,7.45,19.37,4.18,20.01,3.98Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-4" data-name="leaf" d="m383.31,85.27c-32.2-10.77-41.81-11.42-44.03-9.59-3.32,2.74,5.32,14.76,21.45,15.96,13.19.98,22.09-5.97,22.58-6.37Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-5" data-name="leaf" d="m355.55,45.42c29.02,25.43,34.6,34.55,33.5,37.86-1.64,4.95-20.4,3.62-29.89-11.64-7.76-12.48-3.85-25.49-3.61-26.22Z" style="fill: #c1272d; stroke-width: 0px;"/>
+      </g>
+    </g>
+    <g class="strawberry2">
+      <g class="body">
+        <g class="shadowberryleft">
+          <path d="m212.95,69.72c-3.53,37.16,64.33,58.16,79.41,60.69.61.1,2.14.34,3.94-.26,18.62-6.21,26.87-88.72-6.78-104.99-25.63-12.4-73.73,14.56-76.58,44.56Z" style="fill: #8a3600; stroke-width: 0px;"/>
+        </g>
+        <g class="leftbody">
+          <path d="m211.69,63.77c-3.53,37.16,64.33,58.16,79.41,60.69.61.1,2.14.34,3.94-.26,18.62-6.21,26.87-88.72-6.78-104.99-25.63-12.4-73.73,14.56-76.58,44.56Z" style="fill: #ed1c24; stroke-width: 0px;"/>
+        </g>
+        <g class="leftbodyshadow">
+          <path d="m307.98,68.89c-1,20.18-7.03,38.26-15.14,40.96-1.7.57-3.14.34-3.72.25-12.78-2.14-65.7-18.34-73.94-47.01-.37,1.47-.64,2.96-.78,4.45-3.33,35.05,60.68,54.86,74.91,57.25.58.1,2.02.32,3.72-.25,10.06-3.36,16.91-30.34,14.96-55.65Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        </g>
+      </g>
+      <g class="seeds-2" data-name="seeds">
+        <ellipse class="seed2" cx="231.73" cy="81.46" rx="2.19" ry="7.43" transform="translate(-5.54 144.99) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="285.42" cy="39.25" rx="2.19" ry="7.43" transform="translate(27.64 167.92) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="290.15" cy="62.55" rx="2.19" ry="7.43" transform="translate(15.32 174.65) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="299.03" cy="84.09" rx="1.1" ry="7.41" transform="translate(4.71 183.42) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="262.61" cy="65.69" rx="2.19" ry="7.43" transform="translate(8.74 159.66) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="272.97" cy="54.52" rx="2.19" ry="7.43" transform="translate(16.85 163.56) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="281" cy="76.44" rx="2.19" ry="7.43" transform="translate(5.89 171.91) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="266.99" cy="87.65" rx="2.19" ry="7.43" transform="translate(-2.89 165.96) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="246.68" cy="72.9" rx="2.19" ry="7.43" transform="translate(1.89 151.93) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="252.84" cy="95.68" rx="2.19" ry="7.43" transform="translate(-9.89 159.38) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="285.61" cy="107.17" rx="2.19" ry="7.43" transform="translate(-10.65 179.88) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="269.16" cy="105.79" rx="2.19" ry="7.43" transform="translate(-12.75 170.36) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+        <ellipse class="seed2" cx="293.38" cy="94.56" rx="2.19" ry="7.43" transform="translate(-2.18 182.06) rotate(-34.36)" style="fill: #c1272d; stroke-width: 0px;"/>
+      </g>
+      <g class="leaf-6" data-name="leaf">
+        <path class="leaf-7" data-name="leaf" d="m263.72,0c-22.06,20.67-25.36,27.9-23.59,30.39,2.65,3.73,20.25,1.97,25.93-10.12,4.65-9.89-1.96-19.72-2.34-20.27Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-8" data-name="leaf" d="m272.33,20.27c-29.99,3.8-36.9,7.72-36.93,10.78-.04,4.58,15.25,13.47,26.94,7.01,9.56-5.29,9.98-17.12,9.99-17.79Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-9" data-name="leaf" d="m241.61,27.08c-31.22,12.54-38.64,18.36-38.88,21.3-.37,4.41,14.76,8.41,27.29-1.26,10.25-7.91,11.53-19.4,11.59-20.05Z" style="fill: #c1272d; stroke-width: 0px;"/>
+        <path class="leaf-10" data-name="leaf" d="m239.15,27.86c-20.23,27.27-23.82,36.2-22.77,38.89,1.58,4.01,15.68-.48,21.82-15.44,5.02-12.24,1.17-22.85.95-23.45Z" style="fill: #c1272d; stroke-width: 0px;"/>
+      </g>
+    </g>
+    <g class="title">
+      <text class="StrawTeaCaféShadow" transform="translate(12.87 239.52) rotate(-6.68) scale(1.14 1) skewX(2.4)" style="font-family: Pacifico-Regular, Pacifico; font-size: 83.63px;"><tspan x="0" y="0" style="letter-spacing: 0em;">S</tspan><tspan x="57.12" y="0">tr</tspan><tspan x="128.04" y="0" style="letter-spacing: 0em;">a</tspan><tspan x="168.18" y="0">w</tspan><tspan x="226.72" y="0" style="letter-spacing: -.09em;">T</tspan><tspan x="277.49" y="0" style="letter-spacing: 0em;">e</tspan><tspan x="309.94" y="0" style="letter-spacing: 0em;">a C</tspan><tspan x="427.77" y="0" style="letter-spacing: 0em;">a</tspan><tspan x="466.24" y="0" style="letter-spacing: -.02em;">f</tspan><tspan x="495.6" y="0" style="letter-spacing: 0em;">é</tspan></text>
+      <text class="StrawTeaCafé" transform="translate(17.54 232.31) rotate(-6.54) scale(1.14 1) skewX(2.4)" style="fill: #c1272d; font-family: Pacifico-Regular, Pacifico; font-size: 83.63px; stroke: #fff; stroke-miterlimit: 10;"><tspan x="0" y="0" style="letter-spacing: 0em;">S</tspan><tspan x="57.12" y="0">tr</tspan><tspan x="128.04" y="0" style="letter-spacing: 0em;">a</tspan><tspan x="168.18" y="0">w</tspan><tspan x="226.72" y="0" style="letter-spacing: -.09em;">T</tspan><tspan x="277.49" y="0" style="letter-spacing: 0em;">e</tspan><tspan x="309.94" y="0" style="letter-spacing: 0em;">a C</tspan><tspan x="427.77" y="0" style="letter-spacing: 0em;">a</tspan><tspan x="466.24" y="0" style="letter-spacing: -.02em;">f</tspan><tspan x="495.6" y="0" style="letter-spacing: 0em;">é</tspan></text>
+    </g>
+  </g>
+</svg>
