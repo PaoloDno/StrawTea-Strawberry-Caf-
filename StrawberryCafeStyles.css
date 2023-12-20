@@ -52,7 +52,7 @@ section.home {
   position: absolute;
   top: 400px;
   bottom: 10%;
-  opacity: 0.4;
+  opacity: 0.1;
   transition: opacity 1s ease-in-out;
 
 }
