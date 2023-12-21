@@ -1,14 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   const orderDetails = document.querySelector('.order-details');
   const clearOrderBtn = document.querySelector('.clear-btn');
-
+  const orderButtons = document.querySelectorAll('.order-btn');
+  const hiddenContent = document.querySelectorAll('.display-none');
   const items = {}; // Object to track selected items and their quantities
+  
+
+
+
 
   document.querySelectorAll('.size-btn').forEach(button => {
     button.addEventListener('click', () => {
       const size = button.getAttribute('data-size');
       const itemName = button.parentElement.parentElement.getAttribute('data-info');
-      const price = button.parentElement.parentElement.getAttribute('data-price');
+      const price = button.getAttribute('data-price');
       
       const itemKey = `${size} ${itemName} - PHP ${price}`;
       if (items[itemKey]) {
@@ -39,6 +44,36 @@ document.addEventListener('DOMContentLoaded', () => {
       orderDetails.appendChild(orderItem);
     });
   }
+
+
+
+const buttonsArray = Array.from(orderButtons);
+// Add a click event listener to the button
+
+orderButtons.forEach((button, index) => {
+  button.addEventListener('click', function() {
+  // Toggle the display of the hidden content
+  if (hiddenContent[index].style.display === 'none') {
+
+    hiddenContent[index].style.display = 'block';
+    hiddenContent[index].classList.add('transition');
+    button.textContent = `Cancel`; // Change button text when content is shown
+    button.classList.add('cancel-btn');
+    console.log('open');
+  } else {
+    
+    hiddenContent[index].style.display = 'none';
+    hiddenContent[index].classList.remove('transition');
+   
+    button.textContent = 'Order Meow';
+    button.classList.remove('cancel-btn');
+    console.log('close');
+     // Change button text when content is hidden
+    }
+    console.log(buttonsArray);
+
+});
+});
 });
 
 
@@ -59,3 +94,5 @@ function fadeInOnScroll() {
 }
 
 window.addEventListener('scroll', fadeInOnScroll);
+
+
