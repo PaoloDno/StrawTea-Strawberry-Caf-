@@ -3,7 +3,7 @@
   const clearOrderBtn = document.querySelector('.clear-btn');
   const orderButtons = document.querySelectorAll('.order-btn');
   const hiddenContent = document.querySelectorAll('.display-none');
-  const items = {}; // Object to track selected items and their quantities
+  let items = {}; // Object to track selected items and their quantities
   
 
 
