@@ -5,11 +5,13 @@
   <title>Tea Café</title>
   <link rel="stylesheet" href="StrawberryCafeStyles.css">
   <link rel="icon" type="image/x-icon" href="faviconStrawTea.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     
-    <nav>
+    <nav class="nav nav-bar">
     <div>
       <a href="#home"><img src="StrawTeaIcon.svg" alt="cafelogo"  class="LogoHeader"></a>
     </div>
@@ -43,17 +45,17 @@
 
     <section id="menu-section" class="hidden">
       <h2>Our Menu</h2>
-      <div id="menu-overlay">
-      <div class="menu">
-        <div class="menu-group">
+      <div id="menu-overlay" class="row">
+      <div class="menu col-md-6 col">
+        <div class="menu-group card-group">
           <h3>Milk Tea Specials</h3>
           <div class="menu-item" data-info="Strawberry Booba Milk Tea">
             <h4>Strawberry Milk Tea</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="149">Small<br> - PHP 149</button>
-              <button class="size-btn btn" data-size="Medium" data-price="175">Medium<br> - PHP 175</button>
-              <button class="size-btn btn" data-size="Large" data-price="199">Large<br> - PHP 199</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="149">Small<br> - PHP 149</button>
+              <button class="size-btn" data-size="Medium" data-price="175">Medium<br> - PHP 175</button>
+              <button class="size-btn" data-size="Large" data-price="199">Large<br> - PHP 199</button>
             </div></div>
             <p class="item-description"> A delightful fusion of creamy milk tea infused with the essence of ripe strawberries, offering a sweet and fruity flavor profile.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -61,10 +63,10 @@
           <div class="menu-item" data-info="Classic Milk Tea">
             <h4>Classic Milk Tea</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
-              <button class="size-btn btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
-              <button class="size-btn btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
+              <button class="size-btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
+              <button class="size-btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
             </div></div>
             <p class="item-description"> A timeless blend of black tea and creamy milk, offering a harmonious balance of flavors.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -76,10 +78,10 @@
           <div class="menu-item" data-info="Green Tea">
             <h4>Green Tea</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="100">Small<br> - PHP 100</button>
-              <button class="size-btn btn" data-size="Medium" data-price="120">Medium<br> - PHP 120</button>
-              <button class="size-btn btn" data-size="Large" data-price="150">Large<br> - PHP 150</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="100">Small<br> - PHP 100</button>
+              <button class="size-btn" data-size="Medium" data-price="120">Medium<br> - PHP 120</button>
+              <button class="size-btn" data-size="Large" data-price="150">Large<br> - PHP 150</button>
             </div></div>
             <p class="item-description">A soothing blend of traditional green tea leaves.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -87,10 +89,10 @@
           <div class="menu-item" data-info="Yellow Tea">
             <h4>Yellow Tea</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
-              <button class="size-btn btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
-              <button class="size-btn btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="110">Small<br> - PHP 110</button>
+              <button class="size-btn" data-size="Medium" data-price="130">Medium<br> - PHP 130</button>
+              <button class="size-btn" data-size="Large" data-price="160">Large<br> - PHP 160</button>
             </div></div>
             <p class="item-description">A delicate and fragrant yellow tea variety.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -103,10 +105,10 @@
           <div class="menu-item" data-info="House Blend">
             <h4>Classic Blend</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="75">Small<br> - PHP 75</button>
-              <button class="size-btn btn" data-size="Medium" data-price="85">Medium<br> - PHP 85</button>
-              <button class="size-btn btn" data-size="Large" data-price="110">Large<br> - PHP 110</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="75">Small<br> - PHP 75</button>
+              <button class="size-btn" data-size="Medium" data-price="85">Medium<br> - PHP 85</button>
+              <button class="size-btn" data-size="Large" data-price="110">Large<br> - PHP 110</button>
             </div></div>
             <p class="item-description">Our classic house blend coffee, brewed to perfection, offering a rich and satisfying flavor with subtle hints of caramel and chocolate.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -114,10 +116,10 @@
           <div class="menu-item" data-info="Caramel Macchiato">
             <h4>Caramel Macchiato</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="120">Small<br> - PHP 120</button>
-              <button class="size-btn btn" data-size="Medium" data-price="140">Medium<br> - PHP 140</button>
-              <button class="size-btn btn" data-size="Large" data-price="170">Large<br> - PHP 170</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="120">Small<br> - PHP 120</button>
+              <button class="size-btn" data-size="Medium" data-price="140">Medium<br> - PHP 140</button>
+              <button class="size-btn" data-size="Large" data-price="170">Large<br> - PHP 170</button>
             </div></div>
             <p class="item-description">Espresso with steamed milk, vanilla, and strong caramel.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -130,10 +132,10 @@
           <div class="menu-item" data-info="French Fries" data-price="110">
             <h4>French Fries</h4>
             <div class="display-none">
-            <div class="size-options">
-              <button class="size-btn btn" data-size="Small" data-price="40">Small<br> - PHP 40</button>
-              <button class="size-btn btn" data-size="Medium" data-price="60">Medium<br> - PHP 60</button>
-              <button class="size-btn btn" data-size="Large" data-price="80">Large<br> - PHP 80</button>
+            <div class="size-options btn-group-lg">
+              <button class="size-btn" data-size="Small" data-price="40">Small<br> - PHP 40</button>
+              <button class="size-btn" data-size="Medium" data-price="60">Medium<br> - PHP 60</button>
+              <button class="size-btn" data-size="Large" data-price="80">Large<br> - PHP 80</button>
             </div></div>
             <p class="item-description">Crispy golden fries served with your choice of dip.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -141,9 +143,9 @@
           <div class="menu-item" data-info="Special Café Cheesecake" data-price="150">
             <h4>Special Café Cheesecake</h4>
             <div class="display-none">
-            <div class="size-options">
-            <button class="size-btn btn" data-size="Small" data-price="40">Single Slice <br> - PHP 40</button>
-            <button class="size-btn btn" data-size="Medium" data-price="210">Whole (6 Slice)<br> - PHP 210</button>
+            <div class="size-options btn-group-lg">
+            <button class="size-btn" data-size="Small" data-price="40">Single Slice <br> - PHP 40</button>
+            <button class="size-btn" data-size="Medium" data-price="210">Whole (6 Slice)<br> - PHP 210</button>
             </div></div>
             <p class="item-description">Our most basic cheesecake infused with strawberry goodness.</p>
             <div class="orderNow"><button class="order-btn">Order Now</button></div>
@@ -151,7 +153,7 @@
           <!-- Add more snack items -->
         </div>
       </div>
-      <div class="order-summary">
+      <div class="order-summary col-5">
         <h3>Order Summary</h3>
         <div class="order-details">
           <!-- Order details will be dynamically added here -->
@@ -171,9 +173,9 @@
       <div>
 
       </div>
-      <diV id="logo">
+      <div id="logo">
         <img src="finalStrawTeaLogo.svg" alt="stawTea" class="StrawTeaLogo">
-      </diV> 
+      </div> 
     </section>
   </main>
 <!--

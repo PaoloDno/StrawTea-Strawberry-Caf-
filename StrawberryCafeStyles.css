@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 70vh;
 }
 section.home {
   h1 {
@@ -29,7 +29,7 @@ section.home {
   h3 {
    font-family: 'Pacifico';
    font-size: 1.5rem;
-   margin-top: -0.8rem;
+   margin-top: -0.2rem;
   }
   p {
     font-size: 1.1rem;
@@ -62,12 +62,14 @@ section.home {
   background-size: 500px 500px;
   background-blend-mode:lighten;
 }
-
+#menu-overlay {
+  max-height: 90vh;
+  overflow-y: scroll;
+}
 
 header {
   background-color: #F26522;
   padding: 20px;
-  height: 30px;
   
 }
 nav {
@@ -83,7 +85,8 @@ nav ul {
   
 }
 .LogoHeader {
-  position: relative;
+  display: block;
+  position: absolute;
   top: -11px;
   float: left;
   width: 150px;
@@ -115,7 +118,7 @@ section {
 
 .btn {
   font-family: 'bebas neue';
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   background-color: #F26522;
   color: #fff;
@@ -133,19 +136,8 @@ section {
   transform: scaleX(1.1);
   opacity: 0.2;
 }
-.menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  
-}
 
-#menu-overlay {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  
-}
+
 
 .menu-group {
   flex: 1;
@@ -157,7 +149,7 @@ section {
 .menu-group h3 {
   font-family: 'Pacifico', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  margin-bottom: -15px;
+  margin-bottom: 5px;
 }
 
 .size-options {
@@ -285,7 +277,7 @@ section {
 
 .order-btn {
   font-family: 'bebas neue';
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   background: rgba(240, 240, 240, 0.7) ;
   border-color: 4px solid Green;
